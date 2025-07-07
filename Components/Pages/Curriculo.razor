@@ -3,52 +3,109 @@
 <PageTitle>Currículo</PageTitle>
 
 <style>
-    h1, h2 {
-        color: darkslateblue;
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 20px;
     }
 
-    .curso {
-        background-color: aliceblue;
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    h1, h2 {
+        color: darkslateblue;
+        text-align: center;
+    }
+
+    .foto {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+        .foto img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid darkslateblue;
+        }
+
+    .curso, .atividade, .linguagens {
+        background-color: #eae6f1;
         padding: 12px;
         margin-bottom: 15px;
-        border-left: 4px solid;
-        border-color: darkslateblue;
+        border-left: 4px solid darkslateblue;
         border-radius: 6px;
     }
 
-    .curso p {
-        margin: 4px 0;
-    }
+        .curso p, .atividade p, .linguagens p {
+            margin: 6px;
+        }
 </style>
 
-<h1>Muito bem-vindo(a) ao currículo de Giovanna Rodrigues!</h1>
+<div class="container">
+    <div class="foto">
+    <img src="fotoGio.jpeg">
+    </div>
 
-<div class="curso">
-    <p><em>2023 – Introdução à Lógica de Programação com Robótica Educacional LEGO</em></p>
-    <p>Carga horária: 20h</p>
-    <p>Instituto Federal de Educação, Ciência e Tecnologia de Rondônia – IFRO</p>
-</div>
+    <h1>Currículo de Giovanna Rodrigues</h1>
 
-<div class="curso">
-    <p><em>2023 – Introdução ao Git e GitHub</em></p>
-    <p>Carga horária: 4h</p>
-    <p>IFRO – Campus Ji-Paraná</p>
-</div>
+    <h2>Cursos Realizados</h2>
 
-<div class="curso">
-    <p><em>2021 – IPD, Windows 10, Word 2016, WordArt, Excel 2016</em></p>
-    <p>Carga horária: 100h</p>
-    <p>Líder Informática</p>
-</div>
+    <div class="curso">
+        <p><em>2023 – Introdução à Lógica de Programação com Robótica Educacional LEGO</em></p>
+        <p>Carga horária: 20h</p>
+        <p>Instituto Federal de Educação, Ciência e Tecnologia de Rondônia – IFRO</p>
+    </div>
 
-<div class="curso">
-    <p><em>2021 – CorelDRAW X8, PowerPoint 2016, Treinamento Profissional Avançado</em></p>
-    <p>Carga horária: 55h</p>
-    <p>Líder Informática</p>
-</div>
+    <div class="curso">
+        <p><em>2023 – Introdução ao Git e GitHub</em></p>
+        <p>Carga horária: 4h</p>
+        <p>Instituto Federal de Educação, Ciência e Tecnologia de Rondônia – IFRO</p>
+    </div>
 
-<div class="curso">
-    <p><em>2021 – Digitação, Secretária Moderna, Técnicas de Venda e Atendimento</em></p>
-    <p>Carga horária: 60h</p>
-    <p>Líder Informática</p>
+    <div class="curso">
+        <p><em>2021 – IPD, Windows 10, Word 2016, WordArt, Excel 2016</em></p>
+        <p>Carga horária: 100h</p>
+        <p>Líder Informática</p>
+    </div>
+
+    <div class="curso">
+        <p><em>2021 – CorelDRAW X8, PowerPoint 2016, Treinamento Profissional Avançado</em></p>
+        <p>Carga horária: 55h</p>
+        <p>Líder Informática</p>
+    </div>
+
+    <div class="curso">
+        <p><em>2021 – Digitação, Secretária Moderna, Técnicas de Venda e Atendimento</em></p>
+        <p>Carga horária: 60h</p>
+        <p>Líder Informática</p>
+    </div>
+
+    <h2>Participações em Projetos</h2>
+
+    <div class="atividade">
+        <p><em>Projeto de Pesquisa Estação Meteorológica: Monitorando o Clima com Raspberry Pi para Tomada de Decisões</em></p>
+        <p>2023-2024</p>
+        <p>Instituto Federal de Educação, Ciência e Tecnologia de Rondônia – IFRO</p>
+    </div>
+
+    <div class="atividade">
+        <p><em>Projeto de Pesquisa Plataformas Arduino e Raspberry Pi na Coleta e Análise de Dados Climáticos</em></p>
+        <p>2024-2025</p>
+        <p>Instituto Federal de Educação, Ciência e Tecnologia de Rondônia – IFRO</p>
+    </div>
+
+    <h2>Experiência com Linguagens</h2>
+
+    <div class="linguagens">
+        <p>Atualmente aprendendo C#, C++ e Python</p>
+    </div>
 </div>
+    
